@@ -10,23 +10,33 @@
      
     <form action="/submit-data" method="post">
         
+        <input type="hidden" name="userId" value="12345">
         <label for="name">Name:</label>
         <input type="text" id="name" name="username">
+
         <br>
         <br>
+
         <input type="submit" value="Submit">
+
         <br>
         <br>
+
         <input type="checkbox" id="subscribe" name="newsletter" value="yes">
         <label for="subscribe">Subscribe to newsletter</label>
+
         <br>
         <br>
+
         <select name="country">
             <option value="usa">1st</option>
             <option value="canada">2nd</option>
             <option value="usa">3rd</option>
             <option value="canada">4th</option>
         </select>
+
+        <br>
+        <br>
         
     </form>
 
