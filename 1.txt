@@ -1,0 +1,14 @@
+Element	Description
+<!DOCTYPE html>	Declares the HTML version (HTML5)
+<html>	Root element of the document
+<head>	Contains metadata and links to external resources
+<body>	Contains visible content on the page
+<header>	Represents the header of the page or section
+<nav>	Contains navigation links
+<main>	Main content of the page
+<section>	Represents a section of content
+<article>	Independent content, such as a blog post
+<aside>	Tangential content, like sidebars
+<footer>	Footer content, such as copyright and legal links
+<div>	Generic block container for styling or grouping elements
+<span>	Generic inline container for styling small sections of text
