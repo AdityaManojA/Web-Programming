@@ -8,7 +8,11 @@
 <body>
     <h1>Hello</h1>
     <?php
-    $
+    $Person=array(
+        "Name" => "Aditya",
+        "Age" => 21,
+        "Gender" => "Male",
+    );
     ?>
 </body>
 </html>
