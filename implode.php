@@ -9,7 +9,7 @@
     <h1>Hello</h1>
     <?php
     $array=array("A", "B", "C", "D", "E", "F");
-    $implodedarray=implode("-",$array);
+    $implodedarray=implode("-",$array); //A-B-C-D-E-F
     ?>
 </body>
 </html>
