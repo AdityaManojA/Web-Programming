@@ -15,14 +15,13 @@
     </form>
 
     <?php
-    if ($S_SERVER['REQEST_METHOD']=='POST'){
-        $STRINP=$_POST["stringinput"];
-        $RSTRINP=strrev($STRINP);
-        if ($RSTRINP==$STRINP){
-            echo "The string is a palindrome.";
-        }
-        else {  
-            echo "The string is not a palindrome.";
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') { 
+        $strInput = $_POST["stringinput"];       
+        $revStrInput = strrev($strInput);
+        if ($revStrInput == $strInput) {
+            echo "<p>The string '<strong>$strInput</strong>' is a palindrome.</p>";
+        } else {
+            echo "<p>The string '<strong>$strInput</strong>' is not a palindrome.</p>";
         }
     }
     ?>
