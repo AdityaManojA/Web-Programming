@@ -15,7 +15,7 @@
     );
     echo sort($Person);
     echo rsort($Person);//rev
-    echo ksort($Person);//key , asc
+    echo ksort($Person);//key,asc
     echo asort($Person);//value,asc
     echo arsort($Person);//value,desc
     echo krsort($Person);//key,desc
