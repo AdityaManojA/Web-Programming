@@ -8,7 +8,11 @@
 <body>
     <h1>Hello</h1>
     <?php
-    $x=(float)16;
+    $user_valid=1;
+    if($user_valid)
+        echo "Welcome";
+    else
+        echo "Oops!";
     ?>
 </body>
 </html>
