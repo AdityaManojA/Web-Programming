@@ -8,8 +8,10 @@
 <body>
     <?php
     function usergreet($name){
-        
+        echo "Hello {$name}";
     }
+    
+    usergreet("John Doe");
     ?>
 </body>
 </html>
