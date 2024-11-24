@@ -13,6 +13,9 @@
         array("Alita",21),
         array("Melvin",21),
     );
+
+    echo $Person[0][0];//Aditya
+    echo $Person[1][1];//21
     ?>
 </body>
 </html>
