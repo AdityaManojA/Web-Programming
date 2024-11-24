@@ -7,14 +7,12 @@
 </head>
 <body>
     <h2>Palindrome Checker</h2>
-
     <!-- HTML Form to input a string -->
     <form method="post" action="">
         <label for="stringInput">Enter a string: </label>
         <input type="text" name="stringInput" id="stringInput" required>
         <input type="submit" value="Check Palindrome">
     </form>
-
     <?php
     // Check if the form is submitted
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
