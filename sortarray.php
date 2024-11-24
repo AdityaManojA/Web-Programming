@@ -13,6 +13,12 @@
         array("Alita",21),
         array("Melvin",21),
     );
+    echo sort($Person);
+    echo rsort($Person);
+    echo ksort($Person);
+    echo asort($Person);
+    echo sort($Person);
+    echo sort($Person);
     ?>
 </body>
 </html>
