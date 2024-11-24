@@ -8,10 +8,11 @@
 <body>
     <h1>Hello</h1>
     <?php
-    $user_valid=1;
-    $array=array("1","2","3","4","5","6");
-    foreach($array as $value){
-        echo "Array is {$value}<br>"
+    $user_valid = 1;
+    $array = array("1", "2", "3", "4", "5", "6");
+    
+    foreach ($array as $value) { 
+        echo"Array is {$value}<br>"; 
     }
     ?>
 </body>
