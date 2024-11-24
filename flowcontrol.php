@@ -11,6 +11,8 @@
     $user_valid=1;
     if($user_valid)
         echo "Welcome";
+    else if($user_valid>1)
+        echo "Error";
     else
         echo "Oops!";
     ?>
