@@ -12,7 +12,7 @@
     echo strlen("Hello");
     echo str_word_count($x);
     echo strrev("olleh");
-    echo str
+    echo strpos("Hello","o");
     ?>
 </body>
 </html>
