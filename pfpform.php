@@ -9,7 +9,7 @@
     <form action="insert.php" method="post">
         <label for="textfield">Text: </label>
         <input type="text" id="textfield" name="textfield">
-        input
+        <button type="submit" name="submit" value="Insert">Insert record</button>
     </form>
 </body>
 </html>
