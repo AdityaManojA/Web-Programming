@@ -26,6 +26,11 @@
             $sum += pow($digit,$numcount);
             $temp = (int)$temp/10;
         }
+        if ($sum == $armstrong_num){
+            echo "<p>The number $armstrong_num is an Armstrong number.</p>";
+        } else {
+            echo "<p>The number $armstrong_num is not an Armstrong number.</p>";
+        }
     }
     ?>
 </body>
