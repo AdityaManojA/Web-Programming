@@ -12,7 +12,7 @@ else {
     echo "Connected successfully";
 }
 //main function
-if(isset($_POST["submit"]){
+if(isset($_POST["submit"])){
     $textfield= $_POST["textfield"];
 }
 
@@ -22,6 +22,6 @@ if(mysqli_num_rows($result)> 0){
     while(mysqli_fetch_array($result)){
         echo "<tr><td>". $row["text_field"]."</td></tr>";
     }
-
+}
 mysqli_close($conn);
 ?>
