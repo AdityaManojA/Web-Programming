@@ -17,6 +17,14 @@ if (mysqli_query($mysqli,$sql)){
     echo "table created successfully";
 }
 else {
-    echo "".mysqli_error($mysqli);
+    echo " error".mysqli_error($mysqli);
 }
+$sql1="Select username from users";
+$result=mysqli_query($mysqli,$sql1);
+if(mysqli_num_rows($result)> 0){
+    while($row=mysqli_fetch_assoc($result)){
+        echo "user: ".$row["username"]."<br>";
+    }
+}
+else echo"No results found";
 ?>
